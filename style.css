@@ -1,0 +1,12 @@
+.block {
+    /* text-align: center; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+  
+@media (max-width: 768px) {
+    .block {
+        width: 100%;
+    }
+}
