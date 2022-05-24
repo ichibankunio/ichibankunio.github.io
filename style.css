@@ -8,7 +8,6 @@ body {
 }
 
 .works li a {
-    text-decoration: none;
     /* width: 100%; */
     /* display: block; */
 }
@@ -27,6 +26,7 @@ body {
 .works {
     /* background-color: #dcdcdc; */
     /* font-size: 24px; */
+    text-decoration: none;
 
     list-style:none;
     display: -webkit-box;
