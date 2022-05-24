@@ -49,6 +49,8 @@ body {
     }
 
     .works {
+        list-style: none;
+
         text-align: center;
     }
 
