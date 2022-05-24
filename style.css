@@ -11,6 +11,11 @@
 
     .works {
         text-align: center;
-        width: 75%;
+    }
+
+    .icon {
+        /* background-color: coral; */
+        /* text-align: center; */
+        width: 80%;
     }
 }
