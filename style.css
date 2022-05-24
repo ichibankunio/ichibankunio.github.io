@@ -7,13 +7,35 @@ body {
     margin: 0 auto;
 }
 
-.works a {
+.works li a {
     /* text-decoration: none; */
+    /* width: 100%; */
+    /* display: block; */
+}
+
+.works li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.works li {
+    width: 30%;
+    margin-bottom: 1em;
+    /* background-color: blue; */
 }
 
 .works {
     /* background-color: #dcdcdc; */
     /* font-size: 24px; */
+
+    list-style:none;
+    display: -webkit-box;
+    display: flex;
+    /* -webkit-justify-content: space-between; */
+    /* justify-content: space-between; */
+    -webkit-flex-wrap: wrap;
+    flex-wrap:         wrap;
+    
 }
 
 .applink {
@@ -33,8 +55,17 @@ body {
 
     .icon {
         /* background-color: coral; */
-        /* text-align: center; */
+        text-align: center;
+
+
+        /* width: 80%; */
+        /* padding-top: 10px; */
+    }
+
+    .works li {
+        text-align: center;
+
         width: 80%;
-        padding-top: 10px;
+        margin-bottom: 1em;
     }
 }
