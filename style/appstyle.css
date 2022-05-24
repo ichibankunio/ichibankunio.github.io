@@ -1,0 +1,30 @@
+.block {
+    width: 1000px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .block { 
+        width: 100%;
+    }
+
+    .applink {
+        width: 100%;
+        /* width: 100%; */
+        padding-left: 0;
+        margin: 0 auto;
+     
+
+        text-align: center;
+    }
+
+    .icon {
+        /* text-align: center; */
+
+
+        width: 80%;
+        /* padding-top: 10px; */
+    }
+}
