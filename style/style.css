@@ -128,8 +128,8 @@ header {
 @media (max-width: 768px) {
     .block { 
         width: 100%;
-        margin-left: 8px;
-
+        margin-left: 0;
+        /* overflow: hidden; */
     }
 
     .works {
@@ -139,7 +139,7 @@ header {
         margin: 0 auto;
         /* display:flex; */
         margin-left: -8px;
-        overflow: hidden;
+        
 
         /* text-align: center; */
 
