@@ -52,7 +52,7 @@ header {
 .block {
     margin-left: 8px;
     /* margin-right: 8px; */
-    width: 1000px;
+    /* width: 1000px; */
     /* margin: 0 auto; */
 
     /* display: flex;
@@ -83,7 +83,7 @@ header {
     margin-left: 1em;
 
     display: -webkit-box;
-    display: flex;
+    /* display: flex; */
     /* -webkit-justify-content: space-between; */
     /* justify-content: space-between; */
     -webkit-flex-wrap: wrap;
@@ -122,6 +122,39 @@ header {
 
 .footer {
     margin-top: auto;
+}
+
+@media (max-width: 992px) {
+    .block { 
+        width: 100%;
+        margin-left: 0;
+  
+        /* overflow: hidden; */
+    }
+
+    .works {
+        list-style: none;
+        /* width: 100%; */
+        padding-left: 0;
+        margin: 0 auto;
+        /* display:flex; */
+
+        /* text-align: center; */
+
+        /* background-color: coral; */
+    }
+
+
+    .works li {
+        margin:0 auto;
+        
+        /* text-align: center; */
+
+        width: 50%;
+        margin-bottom: 1em;
+        /* background-color: coral; */
+
+    }
 }
 
   
