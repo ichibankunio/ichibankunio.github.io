@@ -70,6 +70,10 @@ header {
     bottom: 0; /*下に固定*/
 }
 
+.itchlink iframe {
+    max-width: 100%;
+}
+
 @media (max-width: 768px) {
     .block { 
         width: 100%;
