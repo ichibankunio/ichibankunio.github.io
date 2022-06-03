@@ -71,9 +71,11 @@ header {
 }
 
 .works li {
-    width: 30%;
+    width: 25%;
     margin-bottom: 1em;
     /* background-color: blue; */
+
+    
 }
 
 .works {
@@ -164,7 +166,6 @@ header {
         margin-left: 0;
   
         /* overflow: hidden; */
-    
     }
 
     .works {
@@ -179,18 +180,11 @@ header {
         /* background-color: coral; */
     }
 
-    .icon {
-        /* text-align: center; */
-
-
-        /* width: 100%; */
-        /* padding-top: 10px; */
-    }
 
     .works li {
         margin:0 auto;
         
-        /* text-align: center; */
+        text-align: center;
 
         width: 100%;
         margin-bottom: 1em;
