@@ -5,6 +5,7 @@ body {
                     "Hiragino Sans",
                     Meiryo,
                     sans-serif;
+    padding-top:50px;
 }
 
 .block {
@@ -12,6 +13,46 @@ body {
     margin: 0 auto;
 
     text-align: center;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+
+    display: table;
+
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    position: fixed;
+}
+
+.header-list {
+    padding-left: 16px;
+    margin:0;
+    /* padding:0; */
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-list li {
+    list-style: none;
+    display: inline;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+.header-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+#selectItem {
+    float: right;
+    margin-right: 16px;
 }
 
 .applink {
