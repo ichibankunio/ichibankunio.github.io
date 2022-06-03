@@ -1,4 +1,3 @@
-
 function getLanguage() {
     const threeToTwo = {
         'eng': 'en',
@@ -17,7 +16,7 @@ function getLanguage() {
 function updateLanguage(lang) {
     for (const e of document.querySelectorAll('*[lang]:not(html)')) {
         if (e.lang === lang) {
-            e.style = "display: block;";
+            e.style = "display: ;";
         } else {
             e.style = "display: none;";
 
@@ -28,5 +27,11 @@ function updateLanguage(lang) {
 window.addEventListener('DOMContentLoaded', () => {
     let lang = getLanguage();
     updateLanguage(lang);
+
+    var select = document.getElementById("langSelect");
+    select.value = lang;
+    select.onchange = function() {
+        updateLanguage(this.value);
+    }
     
 });

@@ -23,11 +23,26 @@
 </head>
 <body>
     <header>
+        
         <ul class="header-list">
-            <li class="header-list-item"><a href="#">Home</a></li>
-            <li class="header-list-item"><a href="#profile">Profile</a></li>
-            <li class="header-list-item"><a href="#works">Works</a></li>
-          </ul>
+            <li class="header-list-item">
+                <a lang="en" href="#">Home</a>
+                <a lang="ja" href="#">ホーム</a>
+            </li>
+            <li class="header-list-item">
+                <a href="#profile">Profile</a>
+            </li>
+            <li class="header-list-item">
+                <a href="#works">Works</a>
+            </li>
+            <li class="header-list-item" id="selectItem">
+                <select id="langSelect">
+                    <option value="en">English</option>
+                    <option value="ja">Japanese 日本語</option>
+                </select>
+            </li>
+        </ul>
+
     </header>
 
     <div class="block">
@@ -36,8 +51,8 @@
             <h2 lang="en">Profile</h2>
             <h2 lang="ja">Profile プロフィール</h2>
         </span>
+            <p lang="ja">個人でゲーム作ってます！</p>
             <p>Indie game developer in Japan🇯🇵</p>
-            <p>個人でゲーム作ってます！</p>
             <ul class="profile-links">
 
                 <li><a href="https://twitter.com/ichibankunio">Twitter</a></li>
@@ -83,7 +98,8 @@
                     <figure class="applink">
                         <a href="./roulette/roulette.html">
                             <img class="icon" src="./images/rouletteicon.jpg">
-                            <figcaption>当たり付き自動販売機のルーレットが何回でも回せるアプリ</figcaption>
+                            <figcaption lang="en">Match 4 Numbers Roulette</figcaption>
+                            <figcaption lang="ja">当たり付き自動販売機のルーレットが何回でも回せるアプリ</figcaption>
                         </a>
                     </figure>
                 </li>
