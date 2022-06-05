@@ -89,12 +89,12 @@ header {
     list-style: none;
     margin-left: 1em;
 
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
     -webkit-flex-wrap: wrap;
-    flex-wrap:         wrap;
+    flex-wrap:         wrap; */
 }
 
 .profile-links {
