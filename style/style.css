@@ -89,6 +89,14 @@ header {
     list-style: none;
     margin-left: 1em;
 
+    display : -webkit-box;     /* old Android */
+    display : -webkit-flex;    /* Safari etc. */
+    display : -ms-flexbox;     /* IE10        */
+    display : flex;
+    -webkit-flex-wrap: wrap;          /* Safari etc. */
+    -ms-flex-wrap    : wrap;          /* IE10        */
+    flex-wrap        : wrap;
+
     /* display: -webkit-box;
     display: flex;
     -webkit-justify-content: space-between;
@@ -154,6 +162,8 @@ header {
 
     .works li {
         margin:0 auto;
+
+        
         
         /* text-align: center; */
 
