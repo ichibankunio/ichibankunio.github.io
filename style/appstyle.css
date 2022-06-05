@@ -78,7 +78,32 @@ header {
     margin: 30px auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+
+    .header-list {
+        padding-left: 8px;
+        margin:0;
+        /* padding:0; */
+    
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .header-list li {
+        list-style: none;
+        display: inline;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    
     .block { 
         width: 100%;
     }
