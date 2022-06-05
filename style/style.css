@@ -77,10 +77,14 @@ header {
 
 .works li {
     width: 25%;
+    height: auto;
     margin-bottom: 1em;
-    /* background-color: blue; */
+    /* background-color: blue; */ 
+}
 
-    
+img {
+    width: auto;
+    height: auto;
 }
 
 .works {
@@ -168,6 +172,7 @@ header {
         /* text-align: center; */
 
         width: 50%;
+        height: auto;
         margin-bottom: 1em;
         /* background-color: coral; */
 
@@ -222,6 +227,8 @@ header {
         text-align: center;
 
         width: 100%;
+        height: auto;
+
         margin-bottom: 1em;
         /* background-color: coral; */
 
