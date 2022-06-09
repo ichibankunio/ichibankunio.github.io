@@ -59,8 +59,10 @@ header {
     margin-top: 5%;
 }
 
+
 .applink img { 
     width: 30%;
+    height: auto;
     /* max-width: 100%; */
     text-align: center;
 } 
@@ -81,6 +83,13 @@ header {
 img {
     max-width: 100%;
     height: auto;
+}
+.icon {
+    border-radius: 10px;
+}
+
+#screenshot {
+    padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -119,9 +128,10 @@ img {
         padding-top: 5%;
     }
 
-    .applink img { 
+
+    .applink img {
         width: 50%;
-        /* max-width: 100%; */
+        
         text-align: center;
     } 
 
@@ -131,9 +141,5 @@ img {
 
         width: 80%;
         /* padding-top: 10px; */
-    }
-
-    .badge {
-        /* width: 50%; */
     }
 }
