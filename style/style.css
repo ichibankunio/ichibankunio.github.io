@@ -25,6 +25,7 @@ header {
     top: 0; /* 上下の固定位置を上から0pxにする */
     left: 0; /* 左右の固定位置を左から0pxにする */
     position: fixed;
+    z-index: 1;
 }
 
 .header-list {
@@ -51,12 +52,23 @@ header {
 }
 
 .works li a {
-    transition: 0.4s;
+    transition: all 0.3s ease-in-out;
     color: black;
     text-decoration: none;
-
 }
 
+.imgframe {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.works li a img {
+    transition: all 0.3s ease-in-out;
+}
+
+.works li a img:hover {
+    transform: scale(1.1);
+}
 
 .works li a:hover {
     color: blue;
