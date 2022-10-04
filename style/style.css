@@ -47,6 +47,11 @@ header {
 .header-list li a {
     color: white;
     text-decoration: none;
+    transition: 1.0s;
+}
+
+a:hover {
+    color: blue;
 }
 
 #selectItem {
