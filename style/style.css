@@ -194,6 +194,10 @@ img {
     /* background-color: white; */
 }
 
+.post-container {
+    background-color: green;
+}
+
 .footer {
     margin-top: auto;
 }
