@@ -12,7 +12,7 @@ body {
     /* margin: 0; */
     padding-top: 50px;
     /* background-color: #F2F0EB; */
-    background-color: white;
+    background-color: #ffffff;
     color: #0D0D0D;
 }
 
@@ -189,14 +189,57 @@ img {
 }
 
 
-.applink {
-    
-    /* background-color: white; */
+.post-container {
+    background-color: #ffffff;
+    /* padding: 20px; */
+    border-radius: 10px;
+    /* transition: all 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+
 }
 
-.post-container {
-    background-color: green;
+.post-container:hover {
+    color: #0044CC;
 }
+
+.post-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon-container {
+    border-radius: 10px;
+    overflow: hidden;
+    /* position: absolute; */
+    aspect-ratio: 1/1;
+
+}
+
+
+
+.post-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.post-excerpt {
+    color: #606060;
+}
+
+.icon {
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+/* 
+.post-container:hover {
+    transform: scale(1.1);
+} */
 
 .footer {
     margin-top: auto;
