@@ -1,9 +1,0 @@
-.icon {
-    width: 20%;
-}
-
-@media (max-width: 768px) {
-    .icon {
-        width: 30%;
-    }
-}
