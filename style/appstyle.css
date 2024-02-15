@@ -26,6 +26,7 @@ header {
     top: 0; /* 上下の固定位置を上から0pxにする */
     left: 0; /* 左右の固定位置を左から0pxにする */
     position: fixed;
+    z-index: 5;
 }
 
 .header-list {
@@ -82,6 +83,7 @@ header {
 
 img {
     max-width: 100%;
+    max-width: 512px;
     height: auto;
 }
 .icon {
