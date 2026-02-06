@@ -113,6 +113,20 @@ body {
     min-width: 120px;
     flex: 0 0 auto;
     scroll-snap-align: start;
+    position: relative;
+}
+
+.screenshots figcaption {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    right: 2%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0c1222;
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+    text-align: center;
 }
 
 .screenshots img {
